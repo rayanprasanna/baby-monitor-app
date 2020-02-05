@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_fade"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn1"
+                    style="@style/button_style"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade1" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    style="@style/button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade2" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    style="@style/button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade3" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    style="@style/button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade4" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    style="@style/button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade5" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    style="@style/button_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/heade6" />
+
+
+            </android.support.v7.widget.LinearLayoutCompat>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ammaibabai.universl.com.ammaibabai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name1"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/CustomeActionBar1">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/CustomeActionBar1" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name=".Header1Activity"
+            android:label="@string/heade1"
+            android:theme="@style/CustomeActionBar1" />
+        <activity android:name=".Header2Activity" />
+        <activity
+            android:name=".header_1.Header1_1Activity"
+            android:theme="@style/CustomeActionBar1" />
+        <activity
+            android:name=".header_1.Header1_2Activity"
+            android:theme="@style/CustomeActionBar1" />
+        <activity android:name=".header_1.Header1_3Activity" />
+        <activity android:name=".header_1.Header1_4Activity" />
+        <activity android:name=".header_1.Header1_5Activity" />
+        <activity android:name=".header_1.Header1_6Activity" />
+        <activity android:name=".header_1.Header1_7Activity" />
+        <activity android:name=".header_1.Header1_8Activity" />
+        <activity android:name=".header_2.Header2_1Activity" />
+        <activity android:name=".header_2.Header2_2Activity" />
+        <activity android:name=".header_2.Header2_3Activity" />
+        <activity android:name=".header_2.Header2_4Activity" />
+        <activity android:name=".header_2.Header2_5Activity" />
+        <activity android:name=".header_2.Header2_6Activity" />
+        <activity android:name=".header_2.Header2_7Activity" />
+        <activity android:name=".header_2.header_2_6.Header_2_6_1Activity" />
+        <activity android:name=".header_2.header_2_6.Header_2_6_2Activity" />
+        <activity android:name=".header_2.header_2_6.Header_2_6_3Activity" />
+        <activity android:name=".header_2.header_2_6.Header_2_6_4Activity" />
+        <activity android:name=".Header3Activity" />
+        <activity android:name=".header_3.Header3_1Activity" />
+        <activity android:name=".header_3.Header3_2Activity" />
+        <activity android:name=".header_3.Header3_3Activity" />
+        <activity android:name=".header_3.Header3_4Activity" />
+        <activity android:name=".header_3.Header3_5Activity" />
+        <activity android:name=".header_3.Header3_6Activity" />
+        <activity android:name=".header_3.Header3_7Activity" />
+        <activity android:name=".header_3.Header3_8Activity" />
+        <activity android:name=".header_3.Header3_9Activity" />
+        <activity android:name=".header_3.Header3_10Activity" />
+        <activity android:name=".header_3.Header3_11Activity" />
+        <activity android:name=".header_3.Header3_12Activity" />
+        <activity android:name=".header_3.Header3_14Activity" />
+        <activity android:name=".header_3.Header3_15Activity" />
+        <activity android:name=".header_3.Header3_13Activity" />
+        <activity android:name=".Header4Activity" />
+        <activity android:name=".header_4.Header4_1Activity" />
+        <activity android:name=".header_4.Header4_2Activity" />
+        <activity android:name=".header_4.Header4_3Activity" />
+        <activity android:name=".header_4.Header4_4Activity" />
+        <activity android:name=".header_4.Header4_5Activity" />
+        <activity android:name=".Header5Activity" />
+        <activity android:name=".header_5.Header5_1Activity" />
+        <activity android:name=".header_5.Header5_2Activity" />
+        <activity android:name=".header_5.Header5_3Activity" />
+        <activity android:name=".header_5.Header5_4Activity" />
+        <activity android:name=".header_5.Header5_5Activity" />
+        <activity android:name=".Header6Activity" />
+        <activity android:name=".ButtonListActivity" />
+        <activity android:name=".FeedActivity"></activity>
+        <activity android:name=".ViewPostActivity"></activity>
+    </application>
+
+</manifest>

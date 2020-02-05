@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+    <!--android:background="@android:drawable/dialog_holo_light_frame" -->
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TextTitle"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_margin"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/postImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <!--<com.facebook.share.widget.LikeView
+            android:id="@+id/likeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ic_margin" />
+        <ImageButton
+            android:id="@+id/twitterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ic_margin"
+            android:background="@drawable/button_ic"
+            android:src="@drawable/ic_twitter" />
+
+        <com.facebook.share.widget.ShareButton
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ic_margin" />-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

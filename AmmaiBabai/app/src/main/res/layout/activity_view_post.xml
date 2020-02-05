@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbarshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textHeader"
+                android:layout_height="50dp"
+                android:text="@string/heade0"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/txtClose"
+                android:layout_marginStart="22dp" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/txtClose"
+                android:background="@drawable/backing"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/TextTitleDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/contentImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/contentTextView"
+                style="@style/TextNormalBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <LinearLayout
+                android:id="@+id/opImgContentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:orientation="vertical" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <!--<ImageButton
+                    android:id="@+id/twitterButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/ic_margin"
+                    android:background="@drawable/button_ic"
+                    android:src="@drawable/ic_twitter" />
+
+                <com.facebook.share.widget.ShareButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/ic_margin" />
+
+
+                <ImageButton
+                    android:id="@+id/likeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/ic_margin"
+                    android:background="@drawable/button_small"
+                    android:src="@drawable/ic_like"
+                    android:visibility="invisible" />-->
+
+                <TextView
+                    android:id="@+id/likesTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="4dp"
+                    android:text=""
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
